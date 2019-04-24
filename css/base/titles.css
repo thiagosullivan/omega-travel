@@ -1,0 +1,19 @@
+h1 {
+    font-size: 65px;
+    font-weight: 100;
+    color: var(--black);
+}
+h2 {
+    font-size: 45px;
+    font-weight: 100;
+}
+h3 {
+    font-size: 32px;
+    /* font-family: 'heebo', sans-serif; */
+    color: var(--black);
+}
+h4 {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    color: --primary-grey;
+}

@@ -1,0 +1,30 @@
+.container-site {
+    height: 50.68em;
+    width: 90em;
+    background-image: url(../../img/home-cover.png);
+    background-repeat: no-repeat;
+    width: 90em;
+    margin: 0 auto;
+}
+
+
+/* TRIP */
+
+#container-trip {
+    width: 90em;
+    height: 1577px;
+    margin: 0 auto;
+    background-image: url(../../img/bg-trip-section.png);
+    background-repeat: no-repeat;
+}
+
+
+/* REVIEWS */
+
+#container-reviews {
+    margin: 0 auto;
+    width: 90em;
+    height: 570px;
+    background-image: url(../../img/bg-review.png);
+    background-repeat: no-repeat;
+}

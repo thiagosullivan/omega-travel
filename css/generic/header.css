@@ -1,0 +1,34 @@
+.header-site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    width: 1140px;
+    height: 80px;
+    top: 38px;
+    left: 150px;
+    position: relative;
+    border-radius: 10px;
+}
+nav ul li {
+    display: inline-block;
+    height: 45px;
+}
+nav li a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+nav ul li:hover {
+    border-bottom: 3px solid #ED093E;
+}
+nav ul li a:hover{
+    color: #ED093E;
+}
+#logo-site {
+    padding-left: 25px;
+}
+
+.option-menu {
+    margin-right: 20px;
+}

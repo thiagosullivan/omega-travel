@@ -1,0 +1,114 @@
+/* TRIP */
+
+#container-trip h1 {
+    text-align: center;
+}
+#trip-line1 {
+    margin-left: 47%;
+    margin-top: 132px;
+    margin-bottom: 29.5px;
+}
+#trip-line2 {
+    margin-left: 41%;
+}
+.content1-trip {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.content2-trip {
+    position: absolute;
+    top: 40.7px;
+    right: 220px;
+    width: 446px;
+}
+.content1-trip p {
+    color: var(--black);
+}
+#price-trip {
+    color: var(--secondary-pink);
+    font-weight: bold;
+    font-size: 28px;
+}
+.content2-trip h1 {
+    line-height: 1.09;
+    margin-top: 40px;
+}
+.content2-trip h4 {
+    margin-top: 7px;
+    font-size: 22px;
+    line-height: 1.45;
+}
+
+.content2-trip img {
+    margin-top: 26px;
+    margin-bottom: 36px;
+}
+.content2-trip p {
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.content2-trip a {
+    text-decoration: none;
+    color: var(--tertiary-pink);
+}
+
+.content3-trip {
+    display: flex;
+    justify-content: center;
+}
+.cont3-col1 {
+    width: 585px;
+}
+.text-cont3 {
+    width: 555px;
+    margin-left: 30px;
+    margin-top: 385px;
+}
+.content3-trip p {
+    color: var(--black);
+}
+.text-cont4 {
+    width: 555px;
+    margin-left: 30px;
+    margin-top: 385px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0);
+    transition: background 0.5s ease;
+  }
+.trip-btn:hover .overlay {
+    display: block;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.text-cont3 img {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.text-cont4 img {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.text-cont3 p, .text-cont4 p {
+    line-height: 1.5;
+}
+.btn-trip-view {
+    margin-top: 77px;
+    margin-left: 45%;
+}
+.trip-btn {
+    position: absolute;
+}
+
+.btn-trip-img {
+    position: absolute;
+    top: 43%;
+    left: 35%;;
+}

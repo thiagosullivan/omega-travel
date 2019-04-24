@@ -1,0 +1,132 @@
+.btn-menu {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.btn-red-email {
+    background-color: #d31f49;
+    width: 158px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 0 0 #a20000;
+    color: #ffffff;
+    background-image: url(../../img/email-btn.png);
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+    text-transform: uppercase
+}
+.btn-red-email:hover {
+    background-color: #a20000;
+    box-shadow: 0 3px 0 0 #d31f49;
+    cursor: pointer;
+}
+.btn-red-1 {
+    background-color: #d31f49;
+    width: 184px;
+    height: 57px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 0 0 #a20000;
+    color: #ffffff;
+    text-transform: uppercase
+}
+.btn-red-1:hover {
+    background-color: #a20000;
+    box-shadow: 0 3px 0 0 #d31f49;
+    cursor: pointer;
+}
+.btn-white {
+    background-color: #ffffff;
+    width: 184px;
+    height: 57px;
+    border: 2px solid #d31f49;
+    border-radius: 10px;
+    color: #d31f49;
+    text-transform: uppercase;
+    margin-top: 45px;
+    transition: background linear 200ms;
+}
+.btn-white:hover{
+    background-color: #d31f49;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button-sub {
+    background-color: transparent;
+    width: 184px;
+    height: 57px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 21px;
+}
+.button-sub:hover {
+    background-color: #ffffff;
+    color: #ee2655;
+    cursor: pointer;
+}
+
+/* SLIDER BUTTONS */
+.slick-current, .slick-slide, .slick-active {
+    width: 1140px;
+}
+.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 33px;
+    height: 65px;
+    z-index: 9;
+    position: absolute;
+    background: transparent;
+    background-image: url(../../img/arrow-left.png);
+    background-repeat: no-repeat;
+    margin-top: 420px;
+    margin-left: 100px;
+}
+.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 33px;
+    height: 65px;
+    z-index: 9;
+    position: absolute;
+    background: transparent;
+    background-image: url(../../img/arrow-right.png);
+    background-repeat: no-repeat;
+    /* margin-top: 272px; */
+    right: 100px;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 2%;
+    left: 47%;
+}
+.slick-dots li {
+    display: inline-block;
+}
+.slick-dots li button {
+    border: none;
+    background: transparent;
+    font-size: 0;
+}
+.slick-initialized{
+    overflow: hidden;
+}
+
+/* BUTTON HOVER */
+
+#btn-js {
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+.trip-btn:hover #btn-js {
+    opacity: 1;
+}
+#btn-js2 {
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+.trip-btn:hover #btn-js2 {
+    opacity: 1;
+}
