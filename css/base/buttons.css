@@ -82,7 +82,7 @@
     background-image: url(../../img/arrow-left.png);
     background-repeat: no-repeat;
     margin-top: 420px;
-    margin-left: 100px;
+    left: 100px;
 }
 .slick-next {
     font-size: 0px;
@@ -129,4 +129,27 @@
 }
 .trip-btn:hover #btn-js2 {
     opacity: 1;
+}
+
+
+/* RESPONSIVE */
+@media  screen and (max-width: 768px){
+    .btn-red-email {
+        display: none;
+    }
+    .slick-next {
+        margin-top: -210px;
+        right: 20px;
+    }
+    .slick-prev {
+        margin-top: 222px;
+        left: 20px;
+    }
+}
+
+@media  screen and (max-width: 375px){
+    .slick-next {
+        margin-top: -192px;
+        right: 20px;
+    }
 }

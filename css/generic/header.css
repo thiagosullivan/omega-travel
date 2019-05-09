@@ -3,10 +3,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
-    width: 1140px;
-    height: 80px;
-    top: 38px;
-    left: 150px;
+    width: 71.25rem;
+    height: 5rem;
+    top: 2.37rem;
+    left: 9.37rem;
     position: relative;
     border-radius: 10px;
 }
@@ -31,4 +31,75 @@ nav ul li a:hover{
 
 .option-menu {
     margin-right: 20px;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    background-color: #000000;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+}
+
+@media screen and (max-width: 768px){
+    body {
+        overflow-x: hidden;
+    }
+    .header-site {        
+        align-items: center;
+        background-color: #ffffff;
+        width: 98.5%;
+        height: 5rem;
+        top: 0.37rem;;
+        left: 0.37rem;
+        position: relative;
+        border-radius: 10px;
+    }
+    .nav-links{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        top: 8vh;
+        height: 39vh;
+        background-color: #ffffff;
+        align-items: center;
+        border-radius: 10px;
+        width: 40%;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+        z-index: 1;
+    }
+    .nav-links li {
+        opacity: 0;
+    }
+    .nav-links li a {
+        color: #000000;
+    }
+    nav ul li:hover {
+        font-size: 150%;
+        border: none;
+    }
+    .burger {
+        display: block;
+        padding-right: 15px;
+    }
+}
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }

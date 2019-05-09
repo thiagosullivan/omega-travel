@@ -2,7 +2,7 @@
 #footer-page {
     margin: 0 auto;
     width: 90em;
-    height: 817px;
+    height: 100%;
 }
 .footer-1 {
     background-color: var(--primary-pink);
@@ -81,4 +81,99 @@
 .footer-col2 ul li a img:hover {
     background-color: var(--quaternary-pink);
     border-radius: 50%;
+}
+
+@media screen and (max-width: 768px){
+    #footer-page {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .footer-1 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        height: 700px;
+    }
+    .footer-2 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-col1 {
+        width: 467px;
+        height: 335px;
+        margin-top: -190px;
+    }
+    .footer-1 button {
+        margin-top: 10px;
+        margin-left: 30%;
+    }
+    .footer-col2 {
+        height: 335px;
+        margin-top: -34%;
+        margin-left: -10%;
+    }
+    .footer-col2 ul {
+        width: 100%;
+        margin-left: 30%;
+    }
+    .col1-footer2 {
+        margin: 20px 0 0 0;
+    }
+    .col2-footer2 {
+        margin: 0 0 15px 0;
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    #footer-page {
+        width: 375px;
+    }
+    .footer-col1 {
+        width: 467px;
+        height: 335px;
+        margin-top: -190px;
+        margin-left: 100px;
+        text-align: center;
+    }
+    #h1-footer1 {
+        font-size: 40px;
+        margin-left: -100px;
+    }
+    .line-white-footer {
+        display: block;
+    }
+    .footer-1 p {
+        width: 360px;
+        margin-right: 0;
+        text-align: justify;
+    }
+    .footer-1 button {
+        margin-top: 10px;
+        margin-left: -20%;
+    }
+    .footer-col2 {
+        height: 335px;
+        margin-top: -78%;
+        margin-left: 18%;
+        text-align: center;
+    }
+    .footer-col2 ul {
+        width: 100%;
+        margin-left: 2%;
+    }
+    .col1-footer2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 45px;
+        margin-top: 10px;
+    }
+    .col1-footer2 img {
+        padding-bottom: 10px;
+        margin-left: -13px;
+    }
+    .col2-footer2 {
+        margin-bottom: 10px;
+    }
 }

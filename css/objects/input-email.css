@@ -34,3 +34,11 @@
 ::placeholder { /* Most modern browsers support this now. */
    color:    #ffffff;
 }
+
+/* RESPONSIVE */
+@media screen and (max-width: 375px){
+   #input-email {
+      width: 350px;
+      height: 40px;
+   }
+}

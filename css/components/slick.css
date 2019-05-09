@@ -117,3 +117,17 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+
+/* REPONSIVE */
+@media screen and (max-width: 768px){
+    .slick-list {
+        top: -32%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .slick-list {
+        top: -32%;
+    }
+}

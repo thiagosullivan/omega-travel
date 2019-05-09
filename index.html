@@ -31,12 +31,13 @@
 </head>
 <body>
     <div class="container-site">
+        <!-- HEADER -->
         <heard class="header-site">
             <div id="logo-site">
                 <img src="./img/omegra-travel-logo.png" alt="">
             </div>
                 <nav>
-                    <ul>
+                    <ul class="nav-links">
                         <li class="option-menu"><a href="">Home</a></li>
                         <li class="option-menu"><a href="#about-section">About</a></li>
                         <li class="option-menu"><a href="#services">Services</a></li>
@@ -45,8 +46,14 @@
                         <li class="option-menu"><a href="#container-blog">Blog</a></li>
                         <button class="btn-red-email btn-menu"><br>Talk to us</button>
                     </ul>
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
                 </nav>
-        </heard> 
+        </heard>
+        <!-- INDEX BANNER -->
         <section class="index-banner">
             <div id="content-home">
                 <p id="p-1">Excellent tours at excellent prices!</p>
@@ -55,6 +62,7 @@
             </div>
         </section> 
     </div>
+    <!-- ABOUT SECTION -->
     <div id="about-section">
         <div class="about-content1">
             <h1>More Than 20 years of Experience</h1>
@@ -65,12 +73,13 @@
                 Cu mea error eripuit delicata. Nec soluta aliquid similique eu, eu melius constituam sit.
                 Et nam soleat accusamus. Vim hinc aeque viderer no, ei aeque viris euismod quo. Id qui altera equidem.
             </p>
-            <button class="btn-white">About Us</button>
+            <button class="btn-white" id="btn-about-section">About Us</button>
         </div>
         <div class="about-content2">
             <img src="./img/photos-about.png" alt="">
         </div>
     </div>
+    <!-- NEWSLETTER SECTION -->
     <div class="newsletter">
         <p id="newsletter-text">Subscribe to our newsletter for deal & promo</p>
         <input id="input-email" type="text" placeholder="youremail@address.com">
@@ -101,12 +110,13 @@
             </div>
         </div>
     </div>
+    <!-- TRIP SECTION -->
     <div id="container-trip">
         <img src="./img/line-one.png" alt="" id="trip-line1">
         <h1 id="services-title">Special Offers</h1>
         <img src="./img/line-style-2.png" alt="" id="trip-line2">
         <div class="content1-trip">           
-            <img src="./img/content1-trip.png" alt="">
+            <img src="./img/content1-trip.png" alt="" class="img-trip">
             <div class="content2-trip">
                 <h1>Luxury Sweden</h1>
                 <h4>6 Days 5 Nights - <span id="price-trip">430$</span></h3>
@@ -148,6 +158,7 @@
         </div>
         <button class="btn-white btn-trip-view"> View more offers</button>
     </div>
+    <!-- REVIEWS -->
     <div id="container-reviews">
         <div class="slider-reviews">
             <p><span id="title-comment">“The trip to Belgium was wonderful”</span>
@@ -164,6 +175,7 @@
             </p>
         </div>
     </div>
+    <!-- BLOG -->
     <div id="container-blog">
         <img src="./img/line-one.png" alt="">
         <h1>Blog</h1>
@@ -192,13 +204,11 @@
                     <img src="./img/line-thin.png" alt="" class="line-blog">
                     <p>Lorem ipsum dolor sit amet, id altera persequeris vim, mea an appareat prodesset. Cu mea error eripuit delicata. Nec soluta aliquid similique eu.</p>
                 </div>
-            </div>
-            <div>
-                
-            </div>
+            </div>            
         </div>
         <button class="btn-white">View More</button>
     </div>
+    <!-- FOOTER -->
     <footer id="footer-page">
         <div class="footer-1">
             <div class="footer-col1">
@@ -247,5 +257,6 @@
     <script type="text/javascript" src="./js/slick.min.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
     <script type="text/javascript" src="./js/hover-btn.js"></script>
+    <script type="text/javascript" src="./js/burger.js"></script>
 </body>
 </html>
